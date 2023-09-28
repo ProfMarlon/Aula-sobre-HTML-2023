@@ -24,25 +24,25 @@ body {
 h1 {
   font-size: 36px;
   margin-top: 20px;
-  text-align: center; /* Alinha o título ao centro da página */
+  text-align: center; 
 }
 
 p {
   font-size: 20px;
   max-width: 600px;
-  margin: 20px auto; /* Centraliza os parágrafos horizontalmente */
+  margin: 20px auto; 
 }
 
 .button-container {
-  text-align: center; /* Alinha os botões ao centro */
-  margin-top: 20px; /* Espaçamento entre os parágrafos e os botões */
+  text-align: center;
+  margin-top: 20px; 
 }
 
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #333; /* Cor de fundo branca mais escura */
-  color: white; /* Cor das letras */
+  background-color: #333;
+  color: white; 
   text-decoration: none;
   font-weight: bold;
   border: none;
@@ -53,5 +53,5 @@ p {
 }
 
 .button:hover {
-  background-color: #555; /* Cor de fundo mais escura quando o mouse passa por cima */
+  background-color: #555; 
 }
