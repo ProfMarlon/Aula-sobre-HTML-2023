@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  font-size: 36px
+  font-size: 36px;
   margin-top: 20px;
   text-align: center; /* Alinha o título ao centro da página */
 }
@@ -50,6 +50,7 @@ p {
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
+  display: block; /* Para garantir que os botões apareçam como blocos separados */
 }
 
 .button:hover {
