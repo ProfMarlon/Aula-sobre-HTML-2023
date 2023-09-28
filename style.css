@@ -1,19 +1,42 @@
 body {
-  background-image: url(local onde você ira colocar a URL da imagem.);
-  background-size: cover; 
+  background-image: url('sua-imagem.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem de fundo */
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-position: center center; 
-  color: white; 
-  font-family: Arial, sans-serif; 
+  background-attachment: fixed;
+  background-position: center center;
+  color: white;
+  font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 100vh;
+}
+
+#sidebar {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 200px;
+  padding: 20px;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#sidebar ul li {
+  margin-bottom: 10px;
+}
 
 #content {
-  background-color: rgba(0, 0, 0, 0.7); 
+  background-color: rgba(0, 0, 0, 0.7);
+  flex: 1;
   padding: 20px;
 }
 
@@ -26,4 +49,31 @@ p {
   font-size: 20px;
   max-width: 600px;
   margin: 20px 0;
+}
+
+#sidebar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#sidebar a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF; 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3;
 }
