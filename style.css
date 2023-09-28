@@ -14,27 +14,11 @@ body {
   min-height: 100vh;
 }
 
-#sidebar {
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 200px;
-  padding: 20px;
-  text-align: left; /* Alinha o texto à esquerda no sidebar */
-}
-
-#sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#sidebar ul li {
-  margin-bottom: 10px;
-}
-
 #content {
   background-color: rgba(0, 0, 0, 0.7);
   flex: 1;
   padding: 20px;
-  text-align: center; /* Alinha o texto ao centro na seção de conteúdo */
+  text-align: center; 
 }
 
 h1 {
@@ -49,40 +33,25 @@ p {
   margin: 20px auto; /* Centraliza os parágrafos horizontalmente */
 }
 
-#sidebar a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-#sidebar a:hover {
-  text-decoration: underline;
-}
-
 .button-container {
-  background-color: red; /* Cor de fundo da estrutura retangular */
-  text-align: center; /* Alinha o conteúdo ao centro na estrutura retangular */
-  padding: 20px;
-  position: fixed;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  border-radius: 5px;
+  text-align: center; /* Alinha os botões ao centro */
+  margin-top: 20px; /* Espaçamento entre os parágrafos e os botões */
 }
 
 .button {
-  display: block;
+  display: inline-block;
   padding: 10px 20px;
-  background-color: red; /* Cor de fundo do botão */
-  color: black; /* Cor do texto do botão */
+  background-color: #333; /* Cor de fundo branca mais escura */
+  color: white; /* Cor das letras */
   text-decoration: none;
   font-weight: bold;
   border: none;
   cursor: pointer;
+  margin-right: 10px;
   margin-bottom: 10px;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 .button:hover {
-  background-color: darkred; /* Cor de fundo do botão quando o mouse passa por cima */
+  background-color: #555; /* Cor de fundo mais escura quando o mouse passa por cima */
 }
