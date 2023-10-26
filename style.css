@@ -1,6 +1,6 @@
 body {
-  background-color: #8C1515; /* Vermelho temático do Dota 2 */
-  color: #FFFFFF; /* Letras brancas */
+  background-color: #8C1515;
+  color: #FFFFFF; 
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
@@ -16,10 +16,10 @@ body {
 }
 
 #content {
-  background-color: #000000; /* Preto */
+  background-color: #000000; 
   padding: 20px;
   text-align: center; 
-  border-radius: 10px; /* Cantos arredondados */
+  border-radius: 10px; 
 }
 
 h1 {
@@ -30,19 +30,19 @@ h1 {
 p {
   font-size: 20px;
   max-width: 600px;
-  margin: 20px auto; /* Centraliza os parágrafos horizontalmente */
+  margin: 20px auto; 
 }
 
 .button-container {
-  text-align: center; /* Alinha os botões ao centro */
-  margin-top: 20px; /* Espaçamento entre os parágrafos e os botões */
+  text-align: center; 
+  margin-top: 20px; 
 }
 
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #8C1515; /* Vermelho temático do Dota 2 */
-  color: #FFFFFF; /* Cor das letras */
+  background-color: #8C1515; 
+  color: #FFFFFF; 
   text-decoration: none;
   font-weight: bold;
   border: none;
@@ -53,22 +53,22 @@ p {
 }
 
 .button:hover {
-  background-color: #B51F1F; /* Cor de fundo mais escura quando o mouse passa por cima */
+  background-color: #B51F1F;
 }
 
 .description-box {
-  background-color: #C81616; /* Vermelho mais claro */
+  background-color: #C81616; 
   padding: 20px;
-  border-radius: 10px; /* Cantos arredondados */
+  border-radius: 10px; 
   text-align: center;
-  margin-top: 20px; /* Espaço entre a caixa e o conteúdo acima */
+  margin-top: 20px; 
 }
 
 h2 {
   font-size: 24px;
 }
 
-/* Estilos para a caixa de descrição */
+
 .description-box p {
   font-size: 18px;
   max-width: 600px;
