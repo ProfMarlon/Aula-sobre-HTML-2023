@@ -1,6 +1,6 @@
 body {
-  background-color: black; 
-  color: white;
+  background-color: #191a1c; /* Cor temática do Dota 2 */
+  color: #ffffff; /* Letras brancas */
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
@@ -12,19 +12,19 @@ body {
   flex-direction: column; 
   align-items: center; 
   min-height: 100vh;
+  padding: 20px;
 }
 
 #content {
   background-color: rgba(0, 0, 0, 0.7);
-  flex: 1;
   padding: 20px;
   text-align: center; 
+  border-radius: 10px; /* Cantos arredondados */
 }
 
 h1 {
   font-size: 36px;
   margin-top: 20px;
-  text-align: center; /* Alinha o título ao centro da página */
 }
 
 p {
@@ -41,7 +41,7 @@ p {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #333; /* Cor de fundo branca mais escura */
+  background-color: #555; /* Cor de fundo branca mais escura */
   color: white; /* Cor das letras */
   text-decoration: none;
   font-weight: bold;
@@ -50,9 +50,27 @@ p {
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  display: block; /* Para garantir que os botões apareçam como blocos separados */
 }
 
 .button:hover {
-  background-color: #555; /* Cor de fundo mais escura quando o mouse passa por cima */
+  background-color: #777; /* Cor de fundo mais escura quando o mouse passa por cima */
+}
+
+.description-box {
+  background-color: #333; /* Cor de fundo da caixa */
+  padding: 20px;
+  border-radius: 10px; /* Cantos arredondados */
+  text-align: center;
+  margin-top: 20px; /* Espaço entre a caixa e o conteúdo acima */
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/* Estilos para a caixa de descrição */
+.description-box p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 20px auto;
 }
