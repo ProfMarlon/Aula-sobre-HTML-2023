@@ -1,6 +1,6 @@
 body {
-  background-color: #191a1c; /* Cor temática do Dota 2 */
-  color: #ffffff; /* Letras brancas */
+  background-color: #8C1515; /* Vermelho temático do Dota 2 */
+  color: #FFFFFF; /* Letras brancas */
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
@@ -16,7 +16,7 @@ body {
 }
 
 #content {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #000000; /* Preto */
   padding: 20px;
   text-align: center; 
   border-radius: 10px; /* Cantos arredondados */
@@ -41,8 +41,8 @@ p {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #555; /* Cor de fundo branca mais escura */
-  color: white; /* Cor das letras */
+  background-color: #8C1515; /* Vermelho temático do Dota 2 */
+  color: #FFFFFF; /* Cor das letras */
   text-decoration: none;
   font-weight: bold;
   border: none;
@@ -53,11 +53,11 @@ p {
 }
 
 .button:hover {
-  background-color: #777; /* Cor de fundo mais escura quando o mouse passa por cima */
+  background-color: #B51F1F; /* Cor de fundo mais escura quando o mouse passa por cima */
 }
 
 .description-box {
-  background-color: #333; /* Cor de fundo da caixa */
+  background-color: #C81616; /* Vermelho mais claro */
   padding: 20px;
   border-radius: 10px; /* Cantos arredondados */
   text-align: center;
